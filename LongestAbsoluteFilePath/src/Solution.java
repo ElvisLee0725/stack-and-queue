@@ -18,6 +18,13 @@ import java.util.LinkedList;
 // Return the final max length
 class Solution {
     public static void main(String[] args) {
+        String s = "abdc";
+        String [] a = s.split("\t");
+        for(String str : a) {
+            System.out.println(str);
+        }
+
+
         System.out.println(new Solution().lengthLongestPath("dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext"));
     }
     public int lengthLongestPath(String input) {
